@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background: #1e1e2f;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color:navy;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #00bcd4;
+}
+
+/* Hero Section */
+.hero {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #1e1e2f, #00bcd4);
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    border: none;
+    background: white;
+    color: #1e1e2f;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Services */
+.services {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.card {
+    background: white;
+    padding: 40px;
+    width: 30%;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+.card:hover{
+    transform: scale(1.05);
+    background: #00bcd4;
+}
+.table-container {
+    width: 50%;
+    margin: 20px auto;   /* centers the table */
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;   /* VERY IMPORTANT */
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+.styled-table th {
+    background-color: #333;
+    color: white;
+}
